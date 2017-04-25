@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="com.wrh.test.NewTest2">
+      	<methods>
+      	    <include name = "testNGLearn2"></include>
+      	    <include name = "testNGLearn3"></include>
+      	    <include name = "testNGLearn"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

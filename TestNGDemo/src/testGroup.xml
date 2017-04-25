@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.wrh.test.TestGroup">
+      	<groups>
+      	    <run>
+      	        <include name = "loginGroup"></include>
+      	        <!--  
+      	        <include name = "signUpGroup"></include>
+      	        -->
+      	    </run>
+      	</groups>    
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

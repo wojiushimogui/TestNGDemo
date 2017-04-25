@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <!-- 参数具有覆盖性 -->
+    <parameter name="str" value="testParameter"/>
+    <parameter name="str" value="testParameter2"/>
+    <parameter name="str" value="testParameter3"/>
+    <parameter name="str" value="testParameter4"/>
+    <!--  参数都在这里都需要双引号，无论id在程序中的类型是否为整型 -->
+    <parameter name="id" value="3"/>
+    <parameter name="name" value="wuranghao"/>
+    
+  <test name="Test">
+    <classes>
+      <class name="com.wrh.test.TestParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
